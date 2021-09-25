@@ -7,10 +7,18 @@ function Contact() {
   return (
      <section id="contactUs">
        <div className="img">
-          <img src={BL} alt="" />
-       <img src={ML} alt="" />
-       <img src={SL} alt="" />
-       </div>
+         <div className="imgcontainer">
+           <div className="flexcontainer">
+             <img src={BL} alt="" />
+           </div>
+          <div className="flexcontainer">
+             <img src={ML} alt="" />
+           </div>
+          
+         </div>
+          
+       
+       </div> 
         <div className="container">
           <div className="content">
             <div className="icontent">
